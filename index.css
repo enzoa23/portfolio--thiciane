@@ -1,0 +1,178 @@
+:root {
+	--default-green: #ab4f4f;
+	--light-green: #44df82;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Utility Classes */
+.btn-primary {
+	background-color: #747d83;
+	color: rgb(42, 36, 36);
+	text-transform: uppercase;
+	padding: 15px 60px;
+	border: none;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+	background: var(--light-green);
+	cursor: pointer;
+}
+
+
+/* Navbar */
+#navbar {
+	display: flex;
+	background-color: rgba(233, 156, 156, 0.6);
+	color: rgb(103, 60, 60);
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar .navbar-container {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+#navbar .navbar-container ul  {
+	display: flex;
+	list-style: none;
+	font-weight: bold;
+}
+
+#navbar .navbar-container ul a {
+	padding: 0 20px;
+	color:rgb(173, 36, 36) ;
+	transition: all 300ms ease;
+	text-decoration: none;
+	
+	
+}
+
+#navbar .navbar-container ul a:hover {
+	color:rgb(103, 60, 60) ;
+	cursor: poin;
+	
+}
+
+#navbar .navbar-container ul a:nth-child(3) {
+	border-right: 1px solid rgb(240, 237, 237);
+}
+
+/* Showcase */
+#showcase {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #df57df;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#showcase .showcase-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#showcase .showcase-container h2 {
+	font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+	margin: 15px 0;
+	font-size: 1.1rem;
+}
+
+/* Footer cabeçalho */
+#footer {
+	background: rgb(134, 86, 86);
+	color: white;
+	padding: 80px 0;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	justify-content: space-between;
+	font-size: 20px;
+	
+}
+
+#footer .footer-content .footer-menu {
+	margin: 0 60px;
+	list-style: none;
+	
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 25px 0;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+	display: flex;
+}
+
+.socials i {
+	margin: 0 20px;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+    text-align: center;
+}
+
+.socials i:hover {
+	color: #FF69B4;
+	cursor: pointer;
+}
+
+
+h1{
+text-align: center;	
+padding: 10px;
+}
+ /*biografia*/
+ navbar ul a{
+color: #df57df;
+ }
+	
+
+
+
+
+
+
+
+
